@@ -1,0 +1,7 @@
+Per compilare il codice:
+
+cd /home/federico/Desktop/QR_reader_Luemi
+source .venv/bin/activate
+
+python -m PyInstaller --clean --noconfirm --onedir \
+  --name QR_reader --paths QR_detection QR_reader.py
